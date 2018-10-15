@@ -6,12 +6,6 @@ public class RomanNumerals {
     // I, X, L, V, C, D, M
     // 73, 88, 76, 86 , 67, 68, 77
 
-	public static void main(String[] args) {
-		RomanNumerals rom = new RomanNumerals();
-		int res = rom.convertToInteger("MCDLXVII");
-		
-	}
-
 	public int convertToInteger(String romanNum) {
 		// To be Implemented
 		if(!romanNumeralsOnly(romanNum)) return -1;
